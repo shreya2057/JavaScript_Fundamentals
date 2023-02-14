@@ -10,3 +10,20 @@ function add(){
 
 
 add()
+
+// Returning a value
+function multiply(){
+    let a = 3
+    let b = 4
+    return a*b
+}
+
+let mult = multiply()
+console.log(mult)
+
+function divide(a){
+    let b = a/3
+    console.log(b)
+}
+
+divide(9)
