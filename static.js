@@ -1,3 +1,9 @@
+// The static methods and properties of the class belong to the class rather than the instance of the class.
+// The instance of the class is not needed while calling and accessing static fields.
+// A class can contain more than one static fields.
+// this keyword is used to called the static method by other static method.
+// The static methods and properties are not accessed by other public methods.
+
 class MyClass{
     static property;
     static method(){
