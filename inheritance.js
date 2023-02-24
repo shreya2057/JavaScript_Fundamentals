@@ -2,6 +2,7 @@
 // New functionaloty can be added.
 // Inheritance is useful features that allows code reusability.
 // 'extends' keyword is usde for inheritance.
+// The super keyword is used to call the constructor of its parent class to access the parent's properties and methods.
 
 class Person{
     constructor(names, ages){
