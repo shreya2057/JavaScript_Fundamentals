@@ -1,3 +1,6 @@
+// Break statement is used to jump out of the loop
+/* Continue statement is used to break one iteration in the loop if the 
+    specified condition occurs abd continues next iteration */
 for(var i = 0; i<5; i++){
     if(i===3){
         continue;
