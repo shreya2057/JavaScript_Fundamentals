@@ -42,7 +42,7 @@ console.log(variable_var)
 
 // console.log(variable_let)    // ReferenceError
 var variable_let = "Variable declared using var"
-console.log(variable_let)
+console.log(variable_let + "\n")
 
 
 // Global access
@@ -54,3 +54,18 @@ console.log(variable_let)
 
 // console.log(window.globalLet)    // Cannot be accessed globally
 // console.log(window.globalVar)    // Can be accessed globally
+
+// Redeclaration
+// var -> it lets redeclaration of same variable
+// let -> it doesn't allow redeclaration of same variable
+
+var sameVariableVar = "Hello this is the original text"
+console.log(sameVariableVar)
+var sameVariableVar = "Hello this is the changed text"
+console.log(sameVariableVar)
+
+// Generates Error
+// let sameVariablelet = "Hello this is the original text"
+// console.log(sameVariableVar)
+// let sameVariablelet = "Hello this is the changed text"
+// console.log(sameVariableVar)
