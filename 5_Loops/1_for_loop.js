@@ -1,5 +1,8 @@
-// for loop
+// loop-> increment, counter and condition
 
+// parts of a loop statement -> initialize, condition, increment
+
+// for loop
 for(let i = 0; i<=5; i++){
     console.log("hello")
 }
