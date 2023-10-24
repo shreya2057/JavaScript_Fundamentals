@@ -1,3 +1,6 @@
+// Datatype
+// Consists of properties that are separated by comma
+// Key value pair
 let input = "age"
 
 let student = {
