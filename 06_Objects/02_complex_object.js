@@ -1,3 +1,5 @@
+// Complex object -> Consists object within an object
+
 let programmer = {
     name: "Shreya Shrestha",
     tech: "JS",
@@ -13,7 +15,9 @@ let programmer = {
 }
 
 console.log(programmer.device.description.brand)
-console.log(programmer.device.description.brand?.length)//if brand property exists then only print length
+
+// if brand property exists then only print length
+console.log(programmer.device.description.brand?.length)
 
 delete programmer.device
 console.log(programmer)
