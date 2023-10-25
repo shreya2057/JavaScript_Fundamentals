@@ -1,3 +1,5 @@
+// Function inside the object is called method
+
 let message = {
     sender: "Shreya Shrestha",
     receiver: "Jack",
