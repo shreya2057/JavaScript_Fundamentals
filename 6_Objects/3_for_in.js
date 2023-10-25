@@ -1,3 +1,5 @@
+// for-in loop -> used for iterating through objects properties
+
 let programmer = {
     name: "Shreya Shrestha",
     tech: "JS",
