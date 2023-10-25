@@ -1,17 +1,22 @@
-// Break statement is used to jump out of the loop
-/* Continue statement is used to break one iteration in the loop if the 
-    specified condition occurs abd continues next iteration */
+// Break statement -> Used to jump out of the loop.
+// Continue statement -> Used to break one iteration in the loop.
+//                    -> If specified condition occurs the loop breaks
+//                       and next iteration continues.
+
+console.log("For loop containing continue statement")
 for(var i = 0; i<5; i++){
     if(i===3){
+        console.log("This is continue statement with i = " + i)
         continue;
     }
-    console.log("Continue " + i)
+    console.log("i= " + i)
 } 
 
-
+console.log("For loop containing break statement")
 for(var i = 5; i<10; i++){
     if(i===7){
+        console.log("This is break statement with i= " + i)
         break;
     }
-    console.log("Break " + i)
+    console.log("i= " + i)
 } 

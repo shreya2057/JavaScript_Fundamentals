@@ -1,4 +1,5 @@
-// loop-> increment, counter and condition
+// loop -> Used when same thing needs to be done multiple times
+//      -> increment, counter and condition
 
 // parts of a loop statement -> initialize, condition, increment
 
