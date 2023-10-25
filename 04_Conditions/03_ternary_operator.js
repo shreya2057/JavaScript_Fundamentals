@@ -11,5 +11,7 @@ if(number%2===0){
 console.log(result)
 
 // ternary operator
+// condition ? true condition statement : false condition statement
+
 let final = number%2===0 ? "Even" : "Odd"
 console.log(final)
