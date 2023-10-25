@@ -1,4 +1,5 @@
-// new keyword -> creates new object and change in one object does not affect on the other
+// new keyword -> creates new object
+//             -> change in one object does not affect on the other
 // Contructor function -> the function name starts with capital letters
 
 function Programmer(name, tech){
