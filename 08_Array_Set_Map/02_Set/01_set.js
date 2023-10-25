@@ -1,5 +1,6 @@
-// Set consists of unique values -> cannot access the elements using index
-// Can have values of mix datatypes
+// Set -> Consists of unique values 
+//     -> Cannot access the elements using index
+//     -> Can have values of mix datatypes
 
 let set = new Set("bookkeeper");
 console.log(set);
