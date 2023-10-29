@@ -24,7 +24,13 @@ class PrivateFeatures{
         this.publicData = publicData
     }
 
+    #privateMethod(){
+        console.log("This is the private method")
+        console.log(this.#privateData)
+    }
+
     getData(){
+        this.#privateMethod()
         return this.#privateData + " " + this.publicData
     }
 }
@@ -33,3 +39,4 @@ let private = new PrivateFeatures("privateData", "publicData");
 console.log(private.getData());
 console.log(private.publicData)
 // console.log(private.#privateData) -> gives an error
+// private.#privateMethod() -> gives an error
