@@ -1,9 +1,22 @@
-class Test{
-    value1 = "Test"
-    method(){
-        console.log(this.value1)
+// Classes are the template that are used for creating objects.
+// Object is an entity or instance.
+
+class Student{
+
+    // Properties
+    name = "Name of the student"
+    dept = "Department of the student"
+
+    // Methods
+    printName(){
+        console.log(this.name)
+    }
+    printdept(){
+        console.log(this.dept)
     }
 }
 
-var test1 = new Test()
-test1.method()
+// Creating object
+var student = new Student()
+student.printName()
+student.printdept()
