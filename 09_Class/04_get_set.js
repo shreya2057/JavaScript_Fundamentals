@@ -41,7 +41,7 @@ class Perimeter{
         return this.#length = newLength;
     }
 
-    set chnageBreadth(newBreadth){
+    set changeBreadth(newBreadth){
         return this.#breadth = newBreadth;
     }
 }
@@ -52,7 +52,7 @@ console.log("The length of the rectangle is: " +  rect.length);
 console.log("The breadth of the rectangle is: " + rect.breadth)
 console.log("\n" + "After changing the values")
 rect.changeLength = 5;
-rect.chnageBreadth = 7;
+rect.changeBreadth = 7;
 console.log("Perimeter of rectangle is: " + rect.calcRect());
 console.log("The length of the rectangle is: " +  rect.length);
 console.log("The breadth of the rectangle is: " + rect.breadth)
