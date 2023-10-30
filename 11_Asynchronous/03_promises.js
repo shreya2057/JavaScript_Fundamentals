@@ -106,3 +106,9 @@ promises
 .catch(error => {
   console.log(error.message)
 })
+
+
+// Note:
+// -----
+// -> .catch() method is used to handle rejection instead of .then() 
+//    method, as .catch() method is dedicated for handling errors, readable
