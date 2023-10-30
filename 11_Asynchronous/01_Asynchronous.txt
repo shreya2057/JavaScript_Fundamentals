@@ -1,0 +1,22 @@
+Asynchronous programming
+-------------------------
+
+->Asynchronous programming is s programming technique that allows programs 
+  to start long running tasks and continue running other tasks in parallel.
+
+->This is in contrast to synchronous programming where the program must 
+  wait for a task to complete before moving to the next task.
+
+->It is necessary as while requesting to server that us elsewhere can take
+  time to return the data. While waiting, the program might have to do 
+  some other task instead of waiting.
+
+
+Asynchronous operation
+----------------------
+
+->Asynchronous operation refers to a task or process that does not block
+  the execution of the main program or script.
+
+->Instead it allows other code to run while it continues in the background
+  and eventually complete
