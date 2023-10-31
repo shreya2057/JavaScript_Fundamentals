@@ -1,0 +1,9 @@
+-> Destructuring is the feature that allows to extract values from object
+   or arrays and assign them to variables in a more concise way.
+
+-> It simplifies working with complex data structures and enhances code 
+   readbility.
+
+-> There are two main types of destructuring:
+    -> Object destructuring
+    -> Array destructuring
